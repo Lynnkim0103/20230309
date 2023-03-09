@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roman Holiday</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+  <script src="./script.js"></script>
+</head>
+<body>
+  <!-- Title -->
+  <hgroup id="title">
+    <h1 data-name="information">Information</h1>
+    <h1 data-name="character">Character</h1>
+    <h1 data-name="multimedia">Multimedia</h1>
+  </hgroup>
+  <!-- Container -->
+  <section id="container">
+    <div id="main" data-name="main" class="active">
+      <img src="./img/Middle_Foreground.png" alt="">
+    </div>
+    <div id="information" data-name="information">
+      <img src="./img/Information_Image.png" alt="">
+      <div class="description">
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde tempore, nisi aut ducimus nulla quam sapiente suscipit qui, error facilis numquam nihil, labore rem molestiae in amet accusamus quis cupiditate! Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veniam molestias a, sequi maiores earum nisi laboriosam exercitationem quod odit rerum perferendis accusamus sapiente doloremque placeat neque nesciunt? Numquam, reprehenderit? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit nihil, tempora cumque atque ipsam non aspernatur, iste voluptates a nisi molestiae ipsa eveniet quae magni doloremque rerum sapiente dolores laborum.
+        </p>
+      </div>
+    </div>
+    <div id="character" data-name="character">
+      <a href="#">Left Button</a>
+      <a href="#">Right Button</a>
+      <article class="show">
+        <h1>Princess Ann</h1>
+        <img src="./img/Character_Text_1.png" alt="">
+        <img src="./img/Character_1.png" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos assumenda recusandae inventore esse maxime, earum alias, quod necessitatibus, eligendi ducimus temporibus. Cumque aliquid minima deleniti deserunt distinctio tenetur provident impedit?</p>
+      </article>
+      <article>
+        <h1>Joe Bradely</h1>
+        <img src="./img/Character_Text_2.png" alt="">
+        <img src="./img/Character_2.png" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos assumenda recusandae inventore esse maxime, earum alias, quod necessitatibus, eligendi ducimus temporibus. Cumque aliquid minima deleniti deserunt distinctio tenetur provident impedit?</p>
+      </article>
+      <article>
+        <h1>Radovich</h1>
+        <img src="./img/Character_Text_3.png" alt="">
+        <img src="./img/Character_3.png" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos assumenda recusandae inventore esse maxime, earum alias, quod necessitatibus, eligendi ducimus temporibus. Cumque aliquid minima deleniti deserunt distinctio tenetur provident impedit?</p>
+      </article>
+    </div>
+    <div id="multimedia" data-name="multimedia">
+      <video src="#" width="940px" height="500px" controls="controls"></video>
+    </div>
+  </section>
+  <!-- navigation -->
+  <nav id="main_navigation">
+    <ul>
+      <li><a href="#" data-target="information">Movie Info</a></li>
+      <li><a href="#" data-target="character">Character</a></li>
+      <li><a href="#" data-target="multimedia">Multimedia</a></li>
+      <li><a href="#">Download</a></li>
+    </ul>
+  </nav>
+</body>
+</html>
